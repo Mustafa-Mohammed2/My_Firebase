@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                reference.push().setValue(et_name.getText().toString());
+                reference.setValue(et_name.getText().toString());
 
             }
         });
